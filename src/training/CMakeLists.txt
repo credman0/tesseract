@@ -171,6 +171,8 @@ endif()
 set(unicharset_training_src
     icuerrorcode.cpp
     icuerrorcode.h
+    fileio.cpp
+    fileio.h
     lang_model_helpers.cpp
     lang_model_helpers.h
     lstmtester.cpp
@@ -269,6 +271,8 @@ set(text2image_src
     boxchar.h
     degradeimage.cpp
     degradeimage.h
+    fileio.h
+    fileio.cpp
     ligature_table.cpp
     ligature_table.h
     normstrngs.cpp
